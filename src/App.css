@@ -1,0 +1,19 @@
+
+
+.recipe-container{
+  width: inherit;
+}
+
+.main-container{
+ width: 100%;
+}
+
+.food-img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.container{
+  margin: 0 30px;
+}
+

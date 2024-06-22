@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  font-family: "Outfit", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--dark-charcoal)
+}
+
+h1, h2 {
+  font-family: "Young Serif", Inter, serif;
+  line-height: 1.1;
+}
+
+h1{
+  margin-top: 40px;
+  font-size: 36px;
+  color: var(--dark-charcoal);
+}
+
+h2{
+  font-size: 30px;
+  color: var(--nutmeg);
+}
+
+h3{
+  color: var(--dark-raspberry);
+  margin: 0;
+}
+
+.preparation-time-container{
+  background-color: var(--rose-white);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+ol{
+  padding-left: 30px;
+}
+
+li{
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+ol li::marker{
+  font-weight: 700;
+  color: var(--nutmeg);
+}
+
+.instructions-container, .ingredients-container{
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.instructions-container, .ingredients-container, .nutrition-container{
+  margin-bottom: 30px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr{
+  border-bottom: 1px solid var(--light-grey);
+}
+
+td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.values{
+  color: var(--nutmeg);
+  font-weight: 700;
+}
+
+.last-row{
+  border-bottom: none;
+}
+
+table tr td:first-child{
+  padding-left: 30px;
+}
+
+.main-container{
+  background-color: var(--white);
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-color: var(--rose-white);
+    margin: 16px 0;
+  }
+  .main-container{
+    width: 650px;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  .container{
+    margin: 0;
+  }
+  .food-img{
+    border-radius: 10px;
+  }
+}
