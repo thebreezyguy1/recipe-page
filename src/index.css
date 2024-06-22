@@ -22,17 +22,7 @@
   --dark-charcoal: hsl(24, 5%, 18%);
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
-  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +30,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   color: var(--dark-charcoal)
+}
+
+body, h3{
+  margin: 0;
 }
 
 h1, h2 {
@@ -60,7 +54,6 @@ h2{
 
 h3{
   color: var(--dark-raspberry);
-  margin: 0;
 }
 
 .preparation-time-container{
@@ -68,10 +61,6 @@ h3{
   padding: 20px;
   border-radius: 10px;
   margin: 30px 0;
-}
-
-ol{
-  padding-left: 30px;
 }
 
 li{
@@ -86,7 +75,6 @@ ol li::marker{
 
 .instructions-container, .ingredients-container{
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--light-grey);
 }
 
 .instructions-container, .ingredients-container, .nutrition-container{
@@ -98,7 +86,7 @@ table{
   border-collapse: collapse;
 }
 
-tr{
+tr, .instructions-container, .ingredients-container{
   border-bottom: 1px solid var(--light-grey);
 }
 
@@ -116,12 +104,8 @@ td{
   border-bottom: none;
 }
 
-table tr td:first-child{
+table tr td:first-child, ol{
   padding-left: 30px;
-}
-
-.main-container{
-  background-color: var(--white);
 }
 
 @media screen and (min-width: 769px) {
