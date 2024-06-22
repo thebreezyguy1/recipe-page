@@ -6,8 +6,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Desktop Screenshot](#desktop-screenshot)
   - [Mobile Screenshot](#mobile-screenshot)
+  - [Desktop Screenshot](#desktop-screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -18,24 +18,26 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-### Desktop Screenshot
-
-![](./src/assets/desktop-screenshot.png)
-
 ### Mobile Screenshot
 
 ![](./src/assets/mobile-screenshot.png)
 
+### Desktop Screenshot
+
+![](./src/assets/desktop-screenshot.png)
+
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://omelette-recipe-page-dorian.netlify.app/)
+- Solution URL: [My Solution](https://your-solution-url.com)
+- Live Site URL: [Omelette Recipe Page Live URL](https://omelette-recipe-page-dorian.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
+- Media queries
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
